@@ -21,8 +21,124 @@
 
 .banner-container {
     height: 100vh;
-    background-image: url(./image/background.jpg);
+    background-image: url(./image/background.jpg), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(39, 39, 77, 1) 39%, rgba(0, 212, 255, 1) 100%); */
+    background-blend-mode: overlay;
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.info-h1 {
+    color: rgb(136, 38, 38);
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.span-t-color {
+    color: rgb(255, 17, 17);
+}
+
+.info-p {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    font: bolder;
+}
+
+.primay-btn {
+    background-color: red;
+    color: white;
+}
+
+.service-btn {
+    padding: 12px 30px;
+    border: none;
+    font: bolder;
+    background-color: red;
+    color: white;
+}
+
+.service-container-left {
+    color: white;
+}
+
+.service-continer {
+    background-image: url(./image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    ;
+    height: 100vh;
+    background-blend-mode: overlay;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 20px;
+}
+
+.icon {
+    width: 70px;
+    margin: 20px;
+}
+
+.box {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service-p {
+    width: 50%;
+}
+
+.first-two-box {
+    display: flex;
+    gap: 5px;
+    /* padding: 10px; */
+    margin-top: 5px;
+}
+
+.sec-two-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    /* padding: 10px; */
+}
+
+.author-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding: 20px;
 }
